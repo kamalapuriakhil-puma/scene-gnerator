@@ -54,4 +54,47 @@
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       font-size: 1.4rem;
-      font-weight: bol
+      font-weight: bold;
+      background: white;
+    }
+
+    .back {
+      transform: rotateY(180deg);
+      background: #fffbe6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner">
+        <div class="front">Akhil</div>
+        <div class="back">Smart</div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner">
+        <div class="front">Vijaya</div>
+        <div class="back">Beauty</div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner">
+        <div class="front">Kerthana</div>
+        <div class="back">Kind Hearted</div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner">
+        <div class="front">Project VKA</div>
+        <div class="back">Everlasting</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
